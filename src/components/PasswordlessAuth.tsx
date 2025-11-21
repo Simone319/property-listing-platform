@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { signIn, signUp, confirmSignIn, autoSignIn } from 'aws-amplify/auth';
+import { signIn, signUp, confirmSignIn } from 'aws-amplify/auth';
 import './PasswordlessAuth.css';
 
 interface PasswordlessAuthProps {
